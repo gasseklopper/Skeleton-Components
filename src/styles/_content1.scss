@@ -1,0 +1,32 @@
+.content1 {
+  
+  & img {
+  	margin: $gutter/2 0 $gutter/2;
+  	max-width: 100%;
+  	height: auto;
+
+  }
+
+  &__wrapperouter {
+    margin: $gutter/2 0 $gutter/2;
+    border: 1px solid black;
+
+  }
+
+  &__wrapperinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: $gutter/2;
+    min-height: 500px;
+  }
+
+  & .h3 {
+    margin-left: $gutter*2;
+    margin-right: $gutter*2;
+  }
+
+  & .btn {
+    margin: $gutter/2;
+  }
+}
