@@ -1,0 +1,16 @@
+.halfhour {
+
+  &__unorderedList {
+    width: 15%;
+
+  }
+
+  &__listItem {
+    display: list-item;
+    margin-left: 2em;
+    padding-top: $gutter/4;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+  }
+
+}
