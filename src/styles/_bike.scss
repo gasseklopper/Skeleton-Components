@@ -10,12 +10,12 @@
       margin-bottom: $gutter;
       margin-top: $gutter;
 
-      @media (max-width: 1366px) and (min-width: 992px)
+      @media (max-width: 2366px) and (min-width: 992px)
        {
       margin-bottom: $gutter*3;
       }
 
-      &--text {
+      &--headline {
       font-weight: 800;
       font-size: 31px;
       line-height: 46px;
@@ -44,6 +44,7 @@
 }// /bike
 
 .box {
+  margin-left: $gutter/2;
 
   &__shadow {
       height: 100%;
