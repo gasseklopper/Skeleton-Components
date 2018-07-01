@@ -1,0 +1,59 @@
+.bike {
+
+  & .spacing-huge {
+    margin-bottom: $gutter;
+  }
+
+
+
+  &__intro {
+      margin-bottom: $gutter;
+      margin-top: $gutter;
+
+      @media (max-width: 1366px) and (min-width: 992px)
+       {
+      margin-bottom: $gutter*3;
+      }
+
+      &--text {
+      font-weight: 800;
+      font-size: 31px;
+      line-height: 46px;
+      letter-spacing: 0.04em;
+      }
+  }// /bike__intro
+
+  &__content {
+
+    & p {
+      margin-bottom: $gutter;
+    }
+
+    &--tags {
+
+      & h4 {
+        font-weight: 900;
+      }
+
+      & span {
+        font-weight: 400;
+      }
+    }
+
+  }// /bike__content
+}// /bike
+
+.box {
+
+  &__shadow {
+      height: 100%;
+      width: 100%;
+      background: url(../images/ui/background-stripe.png);
+  }// /box__shadow
+
+  &__image {
+  width: 100%;
+  margin-top: -$gutter/2;
+  margin-left: -$gutter/2;
+}// /box__image
+}// /box

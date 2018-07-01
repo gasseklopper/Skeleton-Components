@@ -26,10 +26,12 @@ $duration: .3s;
 $timing: cubic-bezier(.51, .92, .24, 1);
 
 // Typography -------------------------------------------------- //
-$fontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//$fontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$fontFamily: 'Poppins', sans-serif;
 
 // Font -------------------------------------------------------- //
 $fontStack: normal 400 100%/1.6 $fontFamily;
+
 
 // basicGrid --------------------------------------------------- //
 $basicGrid__width: $maxWidth;
